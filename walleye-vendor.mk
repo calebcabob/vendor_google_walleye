@@ -76,14 +76,9 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleWCD9340 \
     OBDM_Permissions \
     OemDmTrigger \
-    QtiTelephonyService \
-    SSRestartDetector \
     SprintDM \
     SprintHM \
-    TimeService \
     VzwOmaTrigger \
-    datastatusnotification \
-    wahoo_gfxdrv \
     obdm_stub \
     qcrilmsgtunnel \
     VerizonUnifiedSettings \
