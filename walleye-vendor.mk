@@ -55,11 +55,13 @@ PRODUCT_COPY_FILES += \
     vendor/google/walleye/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/google/walleye/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/google/walleye/proprietary/etc/permissions/com.google.android.camera.experimental2017.xml:system/etc/permissions/com.google.android.camera.experimental2017.xml \
+    vendor/google/walleye/proprietary/etc/ambient/matcher_tah.leveldb:system/etc/ambient/matcher_tah.leveldb \
     vendor/google/walleye/proprietary/lib64/librcc.so:system/lib64/librcc.so
 
 PRODUCT_PACKAGES += \
     EaselServicePrebuilt \
     QtiTelephonyService \
+    AmbientSensePrebuilt \
     Tycho \
     VZWAPNLib \
     embms \
